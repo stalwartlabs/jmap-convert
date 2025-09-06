@@ -20,6 +20,6 @@ log = "0.4"
 console_log = "1"
 getrandom = { version = "0.3.3", features = ["wasm_js"] }
 rand = { version = "0.8" }
-#calcard = { git = "https://github.com/stalwartlabs/calcard.git", features = ["wasm"] }
-calcard = { path = "/Users/me/code/calcard", features = ["wasm"] }
+calcard = { git = "https://github.com/stalwartlabs/calcard.git", features = ["wasm"] }
+#calcard = { path = "/Users/me/code/calcard", features = ["wasm"] }
 
