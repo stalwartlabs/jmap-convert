@@ -1,0 +1,25 @@
+[package]
+name = "jmap-convert"
+description = "JMAP format conversion tool"
+authors = [ "Stalwart Labs LLC <hello@stalw.art>"]
+repository = "https://github.com/stalwartlabs/jmap-convert"
+homepage = "https://convert.jmap.cloud"
+categories = ["email"]
+license = "MIT or Apache-2.0"
+version = "0.1.0"
+edition = "2021"
+resolver = "2"
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+leptos = { version = "0.6.9", features = ["csr"] }
+leptos_meta = { version = "0.6.9", features = ["csr"] }
+leptos_router = { version = "0.6.9", features = ["csr"] }
+leptos-use = "0.13"
+log = "0.4"
+console_log = "1"
+getrandom = { version = "0.3.3", features = ["wasm_js"] }
+rand = { version = "0.8" }
+#calcard = { git = "https://github.com/stalwartlabs/calcard.git", features = ["wasm"] }
+calcard = { path = "/Users/me/code/calcard", features = ["wasm"] }
+

@@ -1,0 +1,18 @@
+{
+    "name": "jmap-convert",
+    "version": "0.1.0",
+    "description": "JMAP format conversion tool",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx tailwindcss -i ./style/input.css -o ./style/output/output.css",
+        "watch": "npx tailwindcss -i ./style/input.css -o ./style/output/output.css --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.10",
+        "@tailwindcss/typography": "^0.5.10",
+        "preline": "^1.9.0",
+        "tailwindcss": "^3.3.5"
+    }
+}
